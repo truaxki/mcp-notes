@@ -1,0 +1,17 @@
+[project]
+name = "notes"
+version = "0.1.0"
+description = "Read and write notes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [ "mcp>=1.2.0",]
+[[project.authors]]
+name = "truaxki"
+email = "truaxki@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+notes = "notes:main"
