@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server implementation for managing notes with persistent storage.
 
+<a href="https://glama.ai/mcp/servers/tg4ugmp8jr"><img width="380" height="200" src="https://glama.ai/mcp/servers/tg4ugmp8jr/badge" alt="Notes Server MCP server" /></a>
+
 ## Features
 
 - Create, read, update, and delete notes
