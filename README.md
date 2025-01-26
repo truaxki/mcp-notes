@@ -1,4 +1,5 @@
 # MCP Notes Server
+[![smithery badge](https://smithery.ai/badge/notes)](https://smithery.ai/server/notes)
 
 A Model Context Protocol (MCP) server implementation for managing notes with persistent storage.
 
@@ -12,6 +13,15 @@ A Model Context Protocol (MCP) server implementation for managing notes with per
 
 ## Installation
 
+### Installing via Smithery
+
+To install notes for Claude Desktop automatically via [Smithery](https://smithery.ai/server/notes):
+
+```bash
+npx -y @smithery/cli install notes --client claude
+```
+
+### Manual Installation
 1. Ensure you have Python 3.10 or later installed
 2. Create a virtual environment:
    ```bash
